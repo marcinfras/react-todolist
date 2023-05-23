@@ -1,0 +1,37 @@
+.todos {
+  list-style-type: none;
+}
+
+.todos li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 2rem;
+  color: rgb(220, 251, 255);
+  margin-bottom: 15px;
+}
+
+.todos label {
+  cursor: pointer;
+}
+
+.todos input {
+  /* display: inline-block; */
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.todos button {
+  color: red;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.todos button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
